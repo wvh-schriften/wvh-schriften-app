@@ -1,4 +1,6 @@
-## Hi there 👋
+## Wilhelm von Humbolt: Schriften
+
+An independent digital edition of Wilhelm von Humboldt's (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface, developed with the TEI Publisher App.
 
 <!--
 **wvh-schriften/wvh-schriften** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
