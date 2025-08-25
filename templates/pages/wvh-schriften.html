@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/logo-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/logo-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/logo-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/logo-64.png" sizes="64x64"/>
+        
+        <title data-template="config:app-title"/>
+        <meta name="description" content="Wilhelm von Humboldt: Schriften"/>
+        <meta name="pb-template" content="wvh-schriften.html"/>
+        
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/custom-theme.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script>
+    
+</script>
+
+        <style>
+             body {
+                    
+                    --pb-link-theme: {
+                        font-family: "Junicode",Georgia,"Times New Roman",serif;
+                        text-decoration: none;
+                        color: black;
+                    };
+
+                    --pb-alternate-inline: var(--paper-blue-800);
+
+                    --pb-view-height: calc(100vh - 192px);
+
+                    --pb-footnote-ref: {
+                        font-size: .85em;
+                        background-color: #3d3224;
+                        text-decoration: none;
+                        text-indent: 0;
+                        max-height: 300px;
+                    };
+
+                    --pb-footnote-number: {
+                        font-size: .75em;
+                    };
+
+                    --pb-popover-theme: 'light';
+                    --pb-popover-placement: 'top';
+                    --pb-popover-fallback-placement: 'left right bottom';
+                    
+                    --pb-facsimile-height: calc(var(--pb-view-height) - 89px);
+                    
+                }
+                
+            main {
+                margin: 0 auto;
+                max-width: 1000px;
+                padding: 0.5rem;
+                animation: fadein 0.6s;
+                padding-bottom: 10rem;
+                margin-bottom: 1rem;
+                box-shadow 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+                        0 1px 10px 0 rgba(0, 0, 0, 0.12),
+                        0 2px 4px -1px rgba(0, 0, 0, 0.4);
+                padding: 20px;
+                width: 90%;
+                max-width: 1000px; 
+                background: white;
+                opacity: 0.9;
+                margin: 20px auto; 
+                border-radius: 10px; 
+                
+                
+            }
+            
+            
+            
+            pb-page{
+                background-image: url('resources/images/klassik.png');
+                background-repeat: repeat-y;
+                
+                
+            }
+            
+            
+            .breadcrumbs {
+                    background:#ead8c3;
+                    margin: 0;
+                    justify-content: space-between;
+                }
+                
+            .breadcrumbs pb-view{
+                    padding:4px;
+                    letter-spacing:1.5px;
+                }
+                
+            @media (min-width: 769px) {
+                .toolbar pb-navigation {
+                    display: none;
+                }
+            }
+
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                
+                
+            }
+
+            .content-body pb-navigation {
+                position: fixed;
+                bottom: 45%;
+                --paper-fab-background: #a38566;
+                color: white;
+                
+            }
+
+            .content-body pb-navigation[direction=backward] {
+                left: 20px;
+                color: black;
+            }
+
+            .content-body pb-navigation[direction=forward] {
+                right: 20px;
+                color: black;
+            }
+
+            @media (max-width: 769px) {
+                .content-body pb-navigation {
+                    display: none;
+                }
+            }
+            
+            
+
+
+}
+
+
+            
+        </style>
+    </head>
+    
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+            <pb-document id="document1" data-template="pages:pb-document"/>
+            
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
+                
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
+                        
+                    </app-header>
+                    
+                    <pb-drawer toggle="tocToggle" class="toc" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                            <h3>
+                                <pb-i18n key="document.contents">Contents</pb-i18n>
+                            </h3>
+                            <div class="toc-container">
+    <pb-load id="toc" url="api/document/{doc}/contents?target=transcription&amp;icons=true" expand="expand" src="document1" subscribe="toc" load-once="load-once">
+        <pb-collapse>
+            <span slot="collapse-trigger">
+                <pb-i18n key="document.contents">Contents</pb-i18n>
+            </span>
+            <span slot="collapse-content">
+                <pb-i18n key="dialogs.loading">Loading</pb-i18n>
+            </span>
+        </pb-collapse>
+    </pb-load>
+</div>
+
+                        </div>
+                    </pb-drawer>
+                    
+                    <section class="breadcrumbs">
+                        <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title[1]" view="single">
+                            <pb-param name="header" value="short"/>
+                        </pb-view>
+                    </section>
+                    
+<main class="content-body">
+  <pb-grid id="grid" panels="[0]" subscribe="transcription" emit="transcription">
+    <template>
+      <pb-panel emit="transcription">
+        <template title="Text">
+          <pb-view src="document1" subscribe="transcription" emit="transcription">
+            <pb-param name="view"/>
+          </pb-view>
+          
+        </template>
+
+        <template title="Bemerkungen">
+          <pb-view src="document1" xpath="//div[@type='notes']" subscribe="transcription" emit="transcription">
+            <pb-param name="view" value="notes"/>
+          </pb-view>
+        </template>
+      </pb-panel>
+    </template>
+  </pb-grid>
+</main>
+
+
+                    <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        
+        <div class="splash"/>
+    </body>
+</html>
