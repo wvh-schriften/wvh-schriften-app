@@ -1,0 +1,8 @@
+{
+  "name" : "wvh-schriften",
+  "version" : "1.0.0",
+  "description" : "Wilhelm von Humboldt: Schriften",
+  "dependencies" : {
+    "@teipublisher/pb-components" : "latest"
+  }
+}
