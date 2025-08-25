@@ -2,6 +2,8 @@
 
 An independent digital edition of Wilhelm von Humboldt's (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface, developed with the TEI Publisher App.
 
+<a href="https://doi.org/10.5281/zenodo.16942572"><img src="https://zenodo.org/badge/1027847238.svg" alt="DOI"></a>
+
 <!--
 **wvh-schriften/wvh-schriften** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
