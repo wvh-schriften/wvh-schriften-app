@@ -2005,11 +2005,11 @@ Weimarer Klassik. Freund <persName ref="gnd-118554727">Wilhelm von Humboldts</pe
                 <note type="bio">Held d. griech. Mythol., Gemahl d. Medea</note>
                 <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
             </person>
-            <person xml:id="gnd-118501194">
+            <person xml:id="gnd-118501194" when="2025-10-02" resp="wvh-schriften">
                 <persName type="main">Ajax, der Telamonier</persName>
                 <persName type="sort">Ajax, der Telamonier</persName>
                 <gender value="M">male</gender>
-                <note type="bio">Griech. Sagenheld</note>
+                <note type="bio">Griech. Sagenheld im Trojanischen Krieg</note>
                 <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
             </person>
             <person xml:id="gnd-118500384">
@@ -2816,11 +2816,11 @@ Weimarer Klassik. Freund <persName ref="gnd-118554727">Wilhelm von Humboldts</pe
                 <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
                 <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
             </person>
-            <person xml:id="gnd-119059738">
+            <person xml:id="gnd-119059738" when="2025-10-02" resp="wvh-schriften">
                 <persName type="main">Agamemnon</persName>
                 <persName type="sort">Agamemnon</persName>
                 <gender value="M">male</gender>
-                <note type="bio">Mytholog. literar. Gestalt</note>
+                <note type="bio">In der griechischen Mythologie, König von Mykene und Heerführer der Griechen im Trojanischen Krieg</note>
                 <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
             </person>
             <person xml:id="gnd-118803271">
@@ -2942,6 +2942,253 @@ Weimarer Klassik. Freund <persName ref="gnd-118554727">Wilhelm von Humboldts</pe
                 <occupation ref="https://d-nb.info/gnd/4033654-2">Kunsthistoriker</occupation>
                 <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
                 <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+        <person xml:id="gnd-118518275">
+                <persName type="main">Caesar, Gaius Iulius</persName>
+                <persName type="sort">Caesar, Gaius Iulius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0100"/>
+                    <placeName ref="https://d-nb.info/gnd/4050471-2">Rom</placeName>
+                </birth>
+                <death>
+                    <date when="-0044"/>
+                    <placeName ref="https://d-nb.info/gnd/4050471-2">Rom</placeName>
+                </death>
+                <note type="bio"/>
+                <occupation ref="https://d-nb.info/gnd/4238876-4">Feldherr</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+            </person>
+            <person xml:id="gnd-118501828">
+                <persName type="main">Alexander III., Makedonien, König</persName>
+                <persName type="sort">Alexander III., Makedonien, König</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0356"/>
+                    <placeName ref="https://d-nb.info/gnd/4045057-0">Pella (Nordgriechenland)</placeName>
+                </birth>
+                <death>
+                    <date when="-0323"/>
+                    <placeName ref="https://d-nb.info/gnd/4004101-3">Babylon</placeName>
+                </death>
+                <note type="bio">Makedonischer König; Hegemon des Korinthischen Bundes; Pharao von Ägypten; persischer Großkönig; König von Asien</note>
+            </person>
+            <person xml:id="gnd-118535749" when="2025-10-02" resp="wvh-schriften">
+                <persName type="main">Friedrich II., Preußen, König</persName>
+                <persName type="sort">Friedrich II., Preußen, König</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1712-01-24"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </birth>
+                <death>
+                    <date when="1786-08-17"/>
+                    <placeName ref="https://d-nb.info/gnd/4046948-7">Potsdam</placeName>
+                </death>
+                <note type="bio">Friedrich II. von Preußen (1712–1786), genannt „der Große“, war König von Preußen und gilt als aufgeklärter Monarch, der Staat und Heer stärkte</note>
+                <occupation ref="https://d-nb.info/gnd/4031516-2">König</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4032009-1">Komponist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118503340" when="2025-10-02" resp="wvh-schriften">
+                <persName type="main">Antigone</persName>
+                <persName type="sort">Antigone</persName>
+                <gender value="F">unknown</gender>
+                <note type="bio">Gestalt d. griech. Mythologie, Tochter d. Oedipus</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118681923" when="2025-10-02" resp="wvh-schriften">
+                <persName type="main">Elektra</persName>
+                <persName type="sort">Elektra</persName>
+                <gender value="F">unknown</gender>
+                <note type="bio">Gestalt der griechischen Tragödie, die den Mord an ihrem Vater Agamemnon rächen will</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-1140878840">
+                <persName type="main">Eteokles, Fiktive Gestalt</persName>
+                <persName type="sort">Eteokles, Fiktive Gestalt</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Person der griechischen Mythologie: Sohn aus der inzestuösen Ehe von Ödipus und Iokaste, Bruder des Polyneikes, der Antigone und der Ismene, und Vater des Laodamas.</note>
+            </person>
+            <person xml:id="gnd-1140878662">
+                <persName type="main">Polyneikes, Fiktive Gestalt</persName>
+                <persName type="sort">Polyneikes, Fiktive Gestalt</persName>
+                <gender value="M">male</gender>
+                <note type="bio">In der Griechischen Mythologie der älteste Sohn des Ödipus und der Iokaste oder der Euryganeia, der Tochter des Hyperphas. Seine Geschwister sind Antigone, Ismene und Eteokles</note>
+            </person>
+            <person xml:id="gnd-118977164">
+                <persName type="main">Deianeira</persName>
+                <persName type="sort">Deianeira</persName>
+                <gender value="U">unknown</gender>
+                <note type="bio">Tochter des Oineus v. Kalydon, Gemahlin des Herakles</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118589393" when="2025-10-02" resp="wvh-schriften">
+                <persName type="main">Ödipus</persName>
+                <persName type="sort">Ödipus</persName>
+                <gender value="M">unknown</gender>
+                <note type="bio">Gestalt d. griech. Mythologie, die unwissentlich seinen Vater tötete und seine Mutter heiratete</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118627813" when="2025-10-02" resp="wvh-schriften">
+                <persName type="main">Voltaire</persName>
+                <persName type="sort">Voltaire</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1694-11-21"/>
+                    <placeName ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+                </birth>
+                <death>
+                    <date when="1778-05-30"/>
+                    <placeName ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+                </death>
+                <note type="bio">Französischer Philosoph und Schriftsteller der Aufklärung, bekannt für seine Religionskritik und seinen Einsatz für Toleranz</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="gnd-118594885">
+                <persName type="main">Platner, Ernst</persName>
+                <persName type="sort">Platner, Ernst</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1744-06-11"/>
+                    <placeName ref="https://d-nb.info/gnd/4035206-7">Leipzig</placeName>
+                </birth>
+                <death>
+                    <date when="1818-12-27"/>
+                    <placeName ref="https://d-nb.info/gnd/4035206-7">Leipzig</placeName>
+                </death>
+                <note type="bio"/>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4142642-3">Anthropologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4210087-2">Physiologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+            </person>
+            <person xml:id="gnd-117566047">
+                <persName type="main">Barthélemy, Jean Jacques</persName>
+                <persName type="sort">Barthélemy, Jean Jacques</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1716-01-20"/>
+                    <placeName ref="https://d-nb.info/gnd/4388557-3">Cassis</placeName>
+                </birth>
+                <death>
+                    <date when="1795-04-30"/>
+                </death>
+                <note type="bio">Franz. Historiker und Schriftsteller; Abt; Chanteloup (Wirkungsort); Französ. Historiker und Schriftsteller; Schriftsteller</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4000273-1">Abt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4191824-1">Archäologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4172176-7">Numismatiker</occupation>
+            </person>
+            <person xml:id="gnd-118570293">
+                <persName type="main">Lavater, Johann Caspar</persName>
+                <persName type="sort">Lavater, Johann Caspar</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1741-11-15"/>
+                    <placeName ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+                </birth>
+                <death>
+                    <date when="1801-01-02"/>
+                    <placeName ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+                </death>
+                <note type="bio">Schweizischer evangelischer Theologe, Philosoph und Schriftsteller</note>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4132592-8">Pfarrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+            </person>
+            <person xml:id="gnd-119291827">
+                <persName type="main">Camper, Petrus</persName>
+                <persName type="sort">Camper, Petrus</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1722-05-11"/>
+                    <placeName ref="https://d-nb.info/gnd/4074118-7">Leiden</placeName>
+                </birth>
+                <death>
+                    <date when="1789-04-07"/>
+                    <placeName ref="https://d-nb.info/gnd/4011446-6">Den Haag</placeName>
+                </death>
+                <note type="bio">Niederländ. Anatom, Arzt, Chirurg, Botaniker; 1749-1773: Professor für Philosophie, später für Anatomie und Chirurgie in Franeker, Prof. der Chirurgie in Amsterdam, Prof. der Chirurgie und der Botanik in Groningen</note>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4009985-4">Chirurg</occupation>
+                <occupation ref="https://d-nb.info/gnd/4398816-7">Anatom</occupation>
+                <occupation ref="https://d-nb.info/gnd/4037215-7">Maler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4146402-3">Botaniker</occupation>
+            </person>
+            <person xml:id="gnd-118816829">
+                <persName type="main">Ludwig XIV., Frankreich, König</persName>
+                <persName type="sort">Ludwig XIV., Frankreich, König</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1638-09-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4116311-4">Saint-Germain-en-Laye</placeName>
+                </birth>
+                <death>
+                    <date when="1715-09-01"/>
+                    <placeName ref="https://d-nb.info/gnd/4063142-4">Versailles</placeName>
+                </death>
+                <note type="bio">Löste sein Land aus der habsburgischen Umklammerung und festigte Frankreichs Stellung als dominierende Großmacht in Europa; markierte eine Blütezeit der Kunst, Literatur, Architektur und Musik;  längster herrschender Monarch der neuzeitlichen Geschichte</note>
+            </person>
+            <person xml:id="gnd-119247267">
+                <persName type="main">Humboldt, Marie-Elisabeth von</persName>
+                <persName type="sort">Humboldt, Marie-Elisabeth von</persName>
+                <gender value="F">female</gender>
+                <birth>
+                    <date when="1741-12-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </birth>
+                <death>
+                    <date when="1796-11-19"/>
+                    <placeName ref="https://d-nb.info/gnd/5007835-5">Tegel</placeName>
+                </death>
+                <note type="bio">Tochter des Spiegelmanufakturdirektors Johann Heinrich Colomb in Neustadt (Dosse); Ehefrau des Friedrich Ernst von Holwede, dann des Alexander Georg von Humboldt; Mutter von Wilhelm und Alexander von Humboldt</note>
+            </person>
+            <person xml:id="gnd-117062006">
+                <persName type="main">Humboldt, Theodor von</persName>
+                <persName type="sort">Humboldt, Theodor von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1797-01-19"/>
+                    <placeName ref="https://d-nb.info/gnd/4028557-1">Jena</placeName>
+                </birth>
+                <death>
+                    <date when="1871-07-26"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Sohn von Wilhelm von Humboldt; nannte sich ab 1809 Humboldt-Dachroeden (Humboldt-Dacheroeden)</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+            </person>
+            <person xml:id="gnd-118588893">
+                <persName type="main">Novalis</persName>
+                <persName type="sort">Novalis</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1772-05-02"/>
+                    <placeName ref="https://d-nb.info/gnd/4289490-6">Wiederstedt</placeName>
+                </birth>
+                <death>
+                    <date when="1801-03-25"/>
+                    <placeName ref="https://d-nb.info/gnd/4065247-6">Weißenfels</placeName>
+                </death>
+                <note type="bio">Dt. Schriftsteller der Frühromantik</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4548714-5">Bergingenieur</occupation>
+                <occupation ref="https://d-nb.info/gnd/4020226-4">Geologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167564-2">Librettist</occupation>
             </person>
         </listPerson>
    </standOff>

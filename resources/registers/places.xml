@@ -264,7 +264,7 @@
                 <ptr type="geonames" target="https://www.geonames.org/2929670"/>
                 <ptr type="info" target="https://en.wikipedia.org/wiki/Erfurt"/>
             </place>
-            <place xml:id="geo-2921044" type="A.PCLI">
+            <place type="A.PCLI" xml:id="geo-2921044" when="2025-10-02" resp="wvh-schriften">
                 <placeName type="main">Deutschland</placeName>
                 <placeName type="sort">Deutschland</placeName>
                 <location>
@@ -272,7 +272,7 @@
                 </location>
                 <country>Germany</country>
                 <region/>
-                <note/>
+                <note>Wilhelm von Humboldt verstand „das Deutsche“ vor allem als Sprache und kulturelle Identität, nicht als politischen Nationalstaat.</note>
                 <ptr type="geonames" target="https://www.geonames.org/2921044"/>
                 <ptr type="info" target="https://en.wikipedia.org/wiki/Germany"/>
             </place>
@@ -372,7 +372,7 @@
                 <ptr type="geonames" target="https://www.geonames.org/2782113"/>
                 <ptr type="info" target="https://en.wikipedia.org/wiki/Austria"/>
             </place>
-            <place xml:id="geo-6255148" type="L.CONT">
+            <place type="L.CONT" xml:id="geo-6255148" when="2025-10-02" resp="wvh-schriften">
                 <placeName type="main">Europa</placeName>
                 <placeName type="sort">Europa</placeName>
                 <location>
@@ -380,7 +380,7 @@
                 </location>
                 <country/>
                 <region/>
-                <note/>
+                <note>Wilhelm von Humboldt verstand Europa als einen Kontinent reicher kultureller und sprachlicher Vielfalt</note>
                 <ptr type="geonames" target="https://www.geonames.org/6255148"/>
                 <ptr type="info" target="https://en.wikipedia.org/wiki/Europe"/>
             </place>
@@ -687,6 +687,30 @@
                 <note/>
                 <ptr type="geonames" target="https://www.geonames.org/2761367"/>
                 <ptr type="info" target="https://en.wikipedia.org/wiki/Vienna"/>
+            </place>
+            <place type="A.PCLI" xml:id="geo-2510769" when="2025-10-02" resp="wvh-schriften">
+                <placeName type="main">Spanien</placeName>
+                <placeName type="sort">Spanien</placeName>
+                <location>
+                    <geo>40 -4</geo>
+                </location>
+                <country>Spain</country>
+                <region/>
+                <note>Zwischen 1799 und 1801 hielt sich Humboldt in Spanien auf, zunächst in Madrid, dann u. a. in den baskischen Provinzen. Dort untersuchte er die Baskische Sprache systematisch.</note>
+                <ptr type="geonames" target="https://www.geonames.org/2510769"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Spain"/>
+            </place>
+            <place type="P.PPLA" xml:id="geo-2867714" when="2025-10-02" resp="wvh-schriften">
+                <placeName type="main">München</placeName>
+                <placeName type="sort">München</placeName>
+                <location>
+                    <geo>48.13743 11.57549</geo>
+                </location>
+                <country>Germany</country>
+                <region>Bavaria</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2867714"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Munich"/>
             </place>
         </listPlace>
    </standOff>
