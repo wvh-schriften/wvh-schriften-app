@@ -8,7 +8,14 @@
                  
                  
                  
-                     <desc>ODD für die digitale Edition von Wilhelm von Humboldts Schriften</desc></title><title type="short">Humboldt Schriften</title></titleStmt>
+                      
+                 
+                 
+                 
+                 
+                 
+                 
+                   <desc>ODD für die digitale Edition von Wilhelm von Humboldts Schriften</desc></title><title type="short">Humboldt Schriften</title></titleStmt>
             <publicationStmt>
                 <publisher>eXistSolutions GmbH</publisher>
                 <availability>
@@ -30,7 +37,7 @@
                 </p>
                 <p>born digital</p>
             </sourceDesc>
-        </fileDesc><encodingDesc><tagsDecl><rendition source="custom.theme.css"/></tagsDecl></encodingDesc><revisionDesc>
+        </fileDesc><encodingDesc><tagsDecl><rendition source="wvh-theme.css"/></tagsDecl></encodingDesc><revisionDesc>
             <change when="2024-12-05Z">Initial version</change>
         </revisionDesc></teiHeader><text>
         <body>
@@ -50,6 +57,16 @@
                 <elementSpec ident="title" mode="change"><model predicate="@type='main'" behaviour="heading">
             <param name="level" value="1"/>
             <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -94,6 +111,16 @@ font-weight: bold;
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </outputRendition>
         </model><model predicate="@type='sub'" behaviour="heading">
             <param name="level" value="3"/>
@@ -118,8 +145,28 @@ font-weight: bold;
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             text-align: center;
 font-size: 1.0em;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -178,12 +225,14 @@ font-size: 1.0em;
                 <param name="content" value="'. '"/>
             </model>
         </modelSequence></elementSpec>
-<elementSpec ident="persName" mode="add"><model behaviour="alternate">
+<elementSpec ident="persName" mode="add"><model output="print" behaviour="inline"/><model behaviour="alternate">
             <param name="default" value="."/>
             <param name="alternate" value="id(@ref, doc('/db/apps/wvh-schriften/resources/registers/person.xml'))"/>
             <outputRendition xml:space="preserve">
+            
             color: orange;
 cursor: pointer;
+            
             </outputRendition>
         </model></elementSpec>
 
@@ -198,9 +247,11 @@ cursor: pointer;
             <model behaviour="block">
                 <param name="content" value="persName[@type=&#34;main&#34;]"/>
                 <outputRendition xml:space="preserve">
+                
                 font-weight: bold;
 text-decoration: underline;
 text-decoration-color: orange;
+                
                 </outputRendition>
             </model>
             <model behaviour="block">
@@ -243,9 +294,29 @@ text-decoration-color: orange;
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             color: #083ed1;
 display: block
 margin: 0 0.5em
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -295,6 +366,16 @@ margin: 0 0.5em
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             color: #083ed1;
 display: block
 margin: 0 0.5em
@@ -320,24 +401,93 @@ margin: 0 0.5em
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </outputRendition>
         </model></elementSpec>
-                <elementSpec ident="p" mode="change"><model predicate="ancestor::sp" behaviour="inline">
+                <elementSpec ident="p" mode="change"><model predicate="@rend='center'" behaviour="paragraph">
+            <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
+            
+            text-align: center;
+margin-block-start: 0.5em;
+margin-block-end: 0.5em;
+            
+            
+            
+            
+            
+            
+            </outputRendition>
+        </model><model predicate="ancestor::sp" behaviour="inline">
             <outputRendition xml:space="preserve">
             null
             </outputRendition>
-        </model><model predicate="@rend='center'" behaviour="paragraph">
+        </model><model predicate="ancestor::item and not(preceding-sibling::p)" behaviour="paragraph">
             <outputRendition xml:space="preserve">
-            text-align: center;
+            
+            
+            
+            
+            
+            
+            display: inline;
+      margin: 0;
+      text-indent: 0;
+            
+            
+            
+            
+            
+            
+            </outputRendition>
+        </model><model predicate="ancestor::item and preceding-sibling::p" behaviour="paragraph">
+            <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
+            
+            display: block;
+      margin-block-start: 0.5em;
+      margin-block-end: 0.5em;
+      text-indent: 1.5em;
+            
+            
+            
+            
+            
+            
             </outputRendition>
         </model><model behaviour="paragraph" useSourceRendition="true">
             <outputRendition xml:space="preserve">
+            
+            
+            
+            
             
             
             text-align: justify;
 text-indent: 1.5em;
 margin-block-start: 0.5em;
 margin-block-end: 0.5em;
+            
+            
+            
+            
             
             
             </outputRendition>
@@ -348,23 +498,20 @@ margin-block-end: 0.5em;
             color: #1E90FF;
             </outputRendition>
         </model></elementSpec>
-                <elementSpec ident="note" mode="change"><model behaviour="note">
+<elementSpec ident="note" mode="change"><model output="print" behaviour="note">
             <param name="place" value="@place"/>
             <param name="label" value="@n"/>
             <outputRendition xml:space="preserve">
             background-color: #ead8c3;
             </outputRendition>
+        </model><model behaviour="note">
+            <param name="place" value="@place"/>
+            <param name="label" value="@n"/>
             <outputRendition xml:space="preserve">
-            max-height: 300px
+            background-color: #ead8c3;
             </outputRendition>
-        </model><modelSequence predicate="@resp=&#34;#leitzmann&#34;">
-            <model behaviour="inline">
-                <param name="content" value="()"/>
-                <outputRendition xml:space="preserve">
-                font-style: italic;
-                </outputRendition>
-            </model>
-        </modelSequence></elementSpec>
+        </model></elementSpec>
+
                 <elementSpec ident="footnote" mode="add"/>
                 <elementSpec ident="div" mode="change"><modelSequence predicate="self::div">
             <model predicate="self::div" behaviour="inline">
@@ -414,9 +561,29 @@ margin-block-end: 0.5em;
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 font-weight: bold;
 text-decoration: underline;
 text-decoration-color: #09a603;
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -429,12 +596,14 @@ text-decoration-color: #09a603;
                 </outputRendition>
             </model>
         </modelSequence></elementSpec>
-                <elementSpec ident="placeName" mode="add"><model behaviour="alternate">
+                <elementSpec ident="placeName" mode="add"><model output="print" behaviour="inline"/><model behaviour="alternate">
             <param name="default" value="."/>
             <param name="alternate" value="id(@ref, doc('/db/apps/wvh-schriften/resources/registers/places.xml'))"/>
             <outputRendition xml:space="preserve">
+            
             color: #09a603;
 cursor: pointer;
+            
             </outputRendition>
         </model></elementSpec>
                 <elementSpec ident="org" mode="add"><modelSequence>
@@ -444,9 +613,29 @@ cursor: pointer;
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 font-weight: bold;
 text-decoration: underline;
 text-decoration-color: #b431e8;
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -459,23 +648,52 @@ text-decoration-color: #b431e8;
                 </outputRendition>
             </model>
         </modelSequence></elementSpec>
-                <elementSpec ident="orgName" mode="add"><model behaviour="alternate">
+                <elementSpec ident="orgName" mode="add"><model output="print" behaviour="inline"/><model behaviour="alternate">
             <param name="default" value="."/>
             <param name="alternate" value="id(@ref, doc('/db/apps/wvh-schriften/resources/registers/organizations.xml'))"/>
             <outputRendition xml:space="preserve">
+            
             color: #b431e8;
 cursor: pointer;
 font-style: italic;
+            
             </outputRendition>
         </model></elementSpec>
                 <elementSpec ident="list" mode="change"><model predicate="@rend='arabic'" behaviour="list">
             <outputRendition xml:space="preserve">
-            list-style-type:arabic
+            
+            
+            
+            
+            
+            list-style-type: decimal;
+      list-style-position: inside;
+      margin: 0;
+      padding: 0;
+top: 0.5em;
+            
+            
+            
+            
+            
             </outputRendition>
         </model><model predicate="@rend='roman'" behaviour="list" useSourceRendition="true">
             <param name="content" value="item"/>
             <outputRendition xml:space="preserve">
-            list-style-type:upper-roman
+            
+            
+            
+            
+            
+            list-style-type: upper-roman;
+      list-style-position: inside;
+margin-block-start: 0.5em;
+      padding: 0;
+            
+            
+            
+            
+            
             </outputRendition>
         </model></elementSpec>
                 <elementSpec ident="listTerm" mode="add"/>
@@ -505,7 +723,18 @@ font-style: italic;
         </model></elementSpec>
                 <elementSpec ident="emph" mode="add"><model behaviour="inline">
             <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
             font-style: italic;
+letter-spacing:0.125em
+            
+            
+            
+            
+            
             </outputRendition>
         </model></elementSpec>
                 <elementSpec ident="bibl" mode="change"/>
@@ -530,7 +759,27 @@ font-style: italic;
             margin-left: 10px; margin-right: 10px;
             </outputRendition>
         </model></elementSpec>
-                <elementSpec ident="item" mode="change"><model behaviour="listItem"/></elementSpec>
+                <elementSpec ident="item" mode="change"><model behaviour="listItem">
+            <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
+            
+            margin: 0.5em 0;
+      padding: 0;
+text-indent: 1.5em;
+text-align: justify;
+            
+            
+            
+            
+            
+            
+            </outputRendition>
+        </model></elementSpec>
+
                 <elementSpec ident="lg" mode="change"><model behaviour="block">
             <outputRendition xml:space="preserve">
             text-align: center;
