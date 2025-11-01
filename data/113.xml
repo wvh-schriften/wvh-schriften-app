@@ -27,6 +27,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Independent Online Edition</publisher>
+            <date when="2025-05">August 2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
                   Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
@@ -40,7 +41,7 @@
                   <surname>Leitzmann</surname>
                   <forename>Albert</forename>
                </editor>
-               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <publisher>Königlich Preußische Akademie der Wissenschaften</publisher>
                <pubPlace>Berlin</pubPlace>
                <date when="1903">1903</date>
                <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
@@ -101,7 +102,7 @@
                <div type="section" n="1">
                   <head>
                      <title type="sub">
-                        <hi>(Gesichtspunkt bei Beurtheilung der alten Dichter überhaupt)</hi>
+                        <emph>(Gesichtspunkt bei Beurtheilung der alten Dichter überhaupt)</emph>
                      </title>
                      <title type="sub">1.</title>
                   </head>
@@ -113,7 +114,7 @@
                <div type="section" n="2">
                   <head>
                      <title type="sub">
-                        <hi>(des <persName ref="gnd-118594427">Pindar</persName> insbesondre.)</hi>
+                        <emph>(des <persName ref="gnd-118594427">Pindar</persName> insbesondre.)</emph>
                      </title>
                      <title type="sub">2.</title>
                   </head>
@@ -218,7 +219,7 @@
                <div type="section" n="4">
                   <head>
                      <title type="sub">
-                        <hi>(Einfluss des Böotischen Charakters auf ihn.)</hi>
+                        <emph>(Einfluss des Böotischen Charakters auf ihn.)</emph>
                      </title>
                      <title type="sub">4.</title>
                   </head>
@@ -287,7 +288,7 @@
                <div type="section" n="7">
                   <head>
                      <title type="sub">
-                        <hi>(Sein individueller Charakter.)</hi>
+                        <emph>(Sein individueller Charakter.)</emph>
                      </title>
                      <title type="sub">7.</title>
                   </head>
@@ -354,7 +355,7 @@
                      <title type="sub">10.</title>
                   </head>
                   <p>Ebenso ist seine ganze moralische Gesinnung <note type="footnote" n="i)" resp="gnd-116890657">
-                        <bibl> Hier ist die Anmerkung gestrichen: <persName ref="gnd-118595237">Plutarch</persName>us <title>περὶ ψυχογονίας</title>, <biblScope unit="page">1893</biblScope>. </bibl>
+                        <hi> Hier ist die Anmerkung gestrichen: <persName ref="gnd-118595237">Plutarch</persName>us <title>περὶ ψυχογονίας</title>, <biblScope unit="page">1893</biblScope>. </hi>
                      </note> auf Offenheit, Treue und Genügsamkeit, auf Bürgereintracht,<note type="footnote" n="10)" resp="gnd-118554727">
                         <bibl>
                            <title>Epigr. Leonidae</title>. <biblScope unit="edition">Ed.
@@ -443,7 +444,7 @@
                <div type="section" n="17">
                   <head>
                      <title type="sub">
-                        <hi>(Aeussre Beschaffenheit seiner Gedichte;)</hi>
+                        <emph>(Aeussre Beschaffenheit seiner Gedichte;)</emph>
                      </title>
                      <title type="sub">17.</title>
                   </head>
@@ -454,7 +455,7 @@
                <div type="section" n="18">
                   <head>
                      <title type="sub">
-                        <hi>(aller lyrischen überhaupt)</hi>
+                        <emph>(aller lyrischen überhaupt)</emph>
                      </title>
                      <title type="sub">18.</title>
                   </head>
@@ -479,7 +480,7 @@
                <div type="section" n="20">
                   <head>
                      <title type="sub">
-                        <hi>(aller lyrischen überhaupt)</hi>
+                        <emph>(aller lyrischen überhaupt)</emph>
                      </title>
                      <title type="sub">20.</title>
                   </head>
@@ -606,7 +607,7 @@
                <div type="section" n="27">
                   <head>
                      <title type="sub">
-                        <hi>(Innere Natur und Beschaffenheit der Siegshymnen im Ganzen.)</hi>
+                        <emph>(Innere Natur und Beschaffenheit der Siegshymnen im Ganzen.)</emph>
                      </title>
                      <title type="sub">27.</title>
                   </head>
@@ -828,8 +829,8 @@
                <div type="section" n="45">
                   <head>
                      <title type="sub">
-                        <hi>(<persName ref="gnd-118594427">Pindar</persName>s didaktischer Theil,
-                           seine Sentenzen.)</hi>
+                        <emph>(<persName ref="gnd-118594427">Pindar</persName>s didaktischer Theil,
+                           seine Sentenzen.)</emph>
                      </title>
                      <title type="sub">45.</title>
                   </head>
@@ -885,8 +886,8 @@
                <div type="section" n="48">
                   <head>
                      <title type="sub">
-                        <hi>(Einheit der <persName ref="gnd-118594427">Pindar</persName>ischen
-                           Gedichte.)</hi>
+                        <emph>(Einheit der <persName ref="gnd-118594427">Pindar</persName>ischen
+                           Gedichte.)</emph>
                      </title>
                      <title type="sub">48.</title>
                   </head>
@@ -973,7 +974,7 @@
                <div type="section" n="53">
                   <head>
                      <title type="sub">
-                        <hi>(Diction.)</hi>
+                        <emph>(Diction.)</emph>
                      </title>
                      <title type="sub">53.</title>
                   </head>
@@ -992,8 +993,8 @@
                <div type="section" n="54">
                   <head>
                      <title type="sub">
-                        <hi>(Bestimmter Begriff der Siegshymnen, als Recapitulation des
-                           Vorigen.)</hi>
+                        <emph>(Bestimmter Begriff der Siegshymnen, als Recapitulation des
+                           Vorigen.)</emph>
                      </title>
                      <title type="sub">54.</title>
                   </head>
@@ -1015,7 +1016,7 @@
                <div type="section" n="55">
                   <head>
                      <title type="sub">
-                        <hi>(Rhythmus.)</hi>
+                        <emph>(Rhythmus.)</emph>
                      </title>
                      <title type="sub">55.</title>
                   </head>

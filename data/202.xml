@@ -26,6 +26,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Independent Online Edition</publisher>
+            <date when="2025-10">Oktober 2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
                   Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
@@ -39,7 +40,7 @@
                   <surname>Leitzmann</surname>
                   <forename>Albert</forename>
                </editor>
-               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <publisher>Königlich Preußische Akademie der Wissenschaften</publisher>
                <pubPlace>Berlin</pubPlace>
                <date when="1904">1904</date>
                <idno type="URI">https://archive.org/details/gesammelteschrif02humbuoft/page/n1/mode/2up</idno>
@@ -105,12 +106,11 @@
                             <persName ref="gnd-118540238">Göthe</persName>s <title>Herrmann und Dorothea</title>
                         </emph>
                         <note type="footnote" n="i)" resp="gnd-116890657">
-                            <hi>Das Epos war im <date when="1797-10">Oktober 1797</date> in Viewegs Verlag
-                     erschienen.</hi>
+                            <hi>Das Epos war im <date when="1797-10">Oktober 1797</date> in <orgName ref="gnd-10189053-9">Viewegs Verlag</orgName> erschienen.</hi>
                         </note> vorzugsweise zu verdienen. Denn in dem eigenthümlichen
                   Geiste, der diese Dichtung beseelt, glaubte ich in vorzüglich sichtbarer Stärke
                   die doppelte Verwandtschaft zu erkennen, in welcher derselbe auf der einen Seite
-                  mit der allge- <pb n="2.116" xml:id="pbII116"/> meinen Dichter- und Künstlernatur
+                  mit der allge-<pb n="2.116" xml:id="pbII116"/> meinen Dichter- und Künstlernatur
                   überhaupt, auf der andern mit der besondern Eigenthümlichkeit ihres Verfassers
                   steht. Die poetische Gattung und die epische Art erscheint nur selten so rein und
                   so vollständig, als in der meisterhaften Composition dieses Ganzen, der
@@ -383,7 +383,7 @@
                   entspringen; er ist nie mit etwas andrem, als mit seinem Gegenstande beschäftigt;
                   alle Hindernisse, durch die er den Knoten der Handlung schürzt, alle Mittel, durch
                   die er ihn wieder löst, sind allein aus diesem und aus den Charakteren der
-                  handelnden Per- <pb n="2.124" xml:id="pbII124"/> sonen genommen; alles, wodurch er
+                  handelnden Per-<pb n="2.124" xml:id="pbII124"/> sonen genommen; alles, wodurch er
                   die Theilnahme des Lesers gewinnt, ist allein in diesem Kreise enthalten, und nie
                   tritt er in seiner eignen Individualität hervor, nie schweift er in eine eigne
                   Betrachtung oder eine eigne Empfindung aus. Und auf welchen Standpunkt sieht sich
@@ -621,7 +621,7 @@
                   gegebene Beispiel, den einfachsten Fall der Kunst, die blosse Nachahmung der Natur
                   erinnern, um sich hiervon zu überzeugen.</p>
                <p>An einer schön gemahlten Frucht bemerkt man ein Schwellen der Contoure, eine
-                  Zartheit des Fleisches, eine flaumartige Weich- <pb n="2.131" xml:id="pbII131"/>
+                  Zartheit des Fleisches, eine flaumartige Weich-<pb n="2.131" xml:id="pbII131"/>
                   heit der Haut, ein Glühen der Farben, das — so sehr ist es bloss idealisch — die
                   Natur nie zu erreichen vermag. Man kann darum nicht sagen, dass die gemahlte
                   Frucht schöner sey, als die natürliche; die Natur ist überhaupt nie schön, als
@@ -757,7 +757,7 @@
                   Menschen in seinem Innersten zu erschüttern und also immer auf einmal alles zu
                   umfassen, was ihn zu rühren vermag, hat niemand die Alten übertroffen. Jede Hymne
                   des Pindar, jeder grössere Chor der Tragiker, jede Ode des <persName ref="gnd-118553569">Horaz</persName> durchläuft, nur in unendlich abwechselnder
-                  Mannigfaltigkeit, den- <pb n="2.135" xml:id="pbII135"/> selben Kreis. Immer ist es
+                  Mannigfaltigkeit, den-<pb n="2.135" xml:id="pbII135"/> selben Kreis. Immer ist es
                   die Erhabenheit der Götter, die Macht des Schicksals, die Abhängigkeit des
                   Menschen, aber auch die Grösse der Gesinnung und die Höhe des Muths, durch welche
                   er sich gegen das Schicksal zu behaupten oder gar über dasselbe zu erheben vermag,
@@ -1471,7 +1471,7 @@
                   und dauerndere Begeisterung mit sich.</p>
                <p>Fragen wir aber weiter nach: wie kam der Dichter dazu, dass er gerade diese Art
                   der Schilderung wählte? so ist die einfache Antwort die: weil es ihm nicht möglich
-                  war, eine andere anzu- <pb n="2.156" xml:id="pbII156"/> wenden. Herrmann ist es,
+                  war, eine andere anzu-<pb n="2.156" xml:id="pbII156"/> wenden. Herrmann ist es,
                   der seine Geliebte beschreibt, und er ist der Mensch nicht, dessen Herz mit dem
                   Ausdruck seiner Empfindung die einfache Darstellung dessen, was er gesehen oder
                   vernommen hat, unterbricht; er beschreibt sie seinen Freunden, um sie sicher und
@@ -1573,7 +1573,7 @@
                   so dass <emph>nichts</emph> an die Stelle trete, sondern <emph>vereinigen</emph>,
                   dass aus beidem ein <emph>Etwas</emph> werde, was mehr sey, als jedes einzeln für
                   sich war. Ueberall aber, wo im Menschen widersprechende Eigenschaften zu etwas
-                  Neuem verknüpft werden, da ist er ge- <pb n="2.159" xml:id="pbII159"/> wiss, in
+                  Neuem verknüpft werden, da ist er ge-<pb n="2.159" xml:id="pbII159"/> wiss, in
                   seiner höchsten Natur zu erscheinen. Denn diese Eigenschaften widersprechen sich
                   schlechterdings so lange, als seine innere Geistesstimmung der wirklichen Welt um
                   ihn her gleicht, und es giebt kein anderes Mittel, sie zu vereinigen, als wenn man
@@ -1954,7 +1954,7 @@
                <p>Dass dieser Begriff des Colorits in der That der richtige ist, sehen wir, wenn wir
                   ihn da aufsuchen, wo er ursprünglich hingehört, in der Mahlerei. Die Farbe, wenn
                   sie nicht bloss die Form besser heraushebt, (und wir reden hier vom Colorit nur
-                  insofern, als dasselbe sich allein und für sich hervordrängt), kann der Phan- <pb n="2.169" xml:id="pbII169"/> tasie keinen bestimmten Gegenstand geben; sie kann
+                  insofern, als dasselbe sich allein und für sich hervordrängt), kann der Phan-<pb n="2.169" xml:id="pbII169"/> tasie keinen bestimmten Gegenstand geben; sie kann
                   nur einzeln ihre Stimmung determiniren und mit mehreren in harmonischer oder
                   disharmonischer Folge dieselbe verändern und durch einen gewissen Rhythmus
                   hindurchführen. Sie gleicht hierin dem Ton, nur dass dieser durch seine innige
@@ -2023,7 +2023,7 @@
                   Geschäft zu vollenden; der, welcher nur seiner innern Stimmung folgt, bloss ein
                   Spiel zu durchlaufen. Dieser wird durch eine innere, gleichsam unwillkührliche
                   Nothwendigkeit bestimmt; jener muss seinen Stoff so anordnen und behandeln, als
-                  hätte ihn der blosse Verstand und die kalte Ueber- <pb n="2.171" xml:id="pbII171"/> legung geformt. Diess aber kann nicht anders, als durch dasselbe Genie
+                  hätte ihn der blosse Verstand und die kalte Ueber-<pb n="2.171" xml:id="pbII171"/> legung geformt. Diess aber kann nicht anders, als durch dasselbe Genie
                   geschehen, das ihn erzeugt, und so muss seiner Einbildungskraft diese
                   Gesetzmässigkeit, durch welche sie ihren Idealen die vollkommenste
                   Natur-Aehnlichkeit giebt, so ursprünglich einverleibt seyn, dass alle ihre
@@ -2196,7 +2196,7 @@
                      ihr</title>
                </head>
                <p>Was diesem ganzen <emph>Göthischen Gedicht</emph> eine so grosse Objectivität
-                  giebt und es so sehr der Gattung von Gedichten an- <pb n="2.176" xml:id="pbII176"/> eignet, von der wir hier reden, ist der feste und sichere Grund, welcher dem
+                  giebt und es so sehr der Gattung von Gedichten an-<pb n="2.176" xml:id="pbII176"/> eignet, von der wir hier reden, ist der feste und sichere Grund, welcher dem
                   Ganzen, so wie jedem einzelnen Theile, jeder Handlung und jeder Schilderung, wenn
                   die Metapher erlaubt scheint, gleichsam untergebaut ist. Wie der Werkmeister der
                   Natur den feinsten und sprechendsten Zügen der menschlichen Gestalt einen festen
@@ -2280,7 +2280,7 @@
                   Lieblingshelden höhere Schönheit und übermenschliche Grösse verliehen, und
                   vertritt die Stelle des Wunderbaren, das in seiner wahren und antiken Gestalt in
                   einer Composition, wie das gegenwärtige Gedicht ist, keinen Platz finden konnte.
-                  Aber wenn es nun hier jenen überirrdisch stralenden Glanz ent- <pb n="2.178" xml:id="pbII178"/> behren muss, so führt es uns desto tiefer in uns selbst
+                  Aber wenn es nun hier jenen überirrdisch stralenden Glanz ent-<pb n="2.178" xml:id="pbII178"/> behren muss, so führt es uns desto tiefer in uns selbst
                   zurück. Wie viel wir auch, sagt es uns, an uns bessern und modeln, so erzeugt sich
                   die eigentliche Gestalt, die wir annehmen, doch allein und uns unbewusst aus uns
                   selbst; gerade die Gefühle, die uns am mächtigsten beherrschen, schiessen wie
@@ -2776,7 +2776,7 @@
                   ihrer Stimmung von Augenblick zu Augenblick vorgeschrieben und doch dabei
                   verstanden, weder sich selbst je von seinem Stoff zu entfernen noch auch sie je
                   von demselben ab in sich zurückzuführen. Denn statt, wie der lyrische Dichter da,
-                  wo er Schilderungen braucht, zu thun pflegt, un- <pb n="2.191" xml:id="pbII191"/>
+                  wo er Schilderungen braucht, zu thun pflegt, un-<pb n="2.191" xml:id="pbII191"/>
                   mittelbar Empfindungen zu erregen, die auf die Schilderung selbst zurückwirken,
                   stimmt er seinen Leser vielmehr immer nur durch andere Bilder, immer durch
                   Gestalten und Handlungen, die er jenen an die Seite stellt oder vor ihnen
@@ -3025,7 +3025,7 @@
                   denselben Glanz, sind Heroen, die zwischen dem <placeName ref="geo-734890">Olymp</placeName> und der Sterblichkeit in der Mitte stehen, sondern sie sind
                   auch meistentheils nur nach ihren äussern Gestalten, ihren Handlungen, ihren Reden
                   individualisirt, nicht, wie so oft bei den neueren Dichtern, nach ihren innern
-                  Charakterformen und Ge- <pb n="2.198" xml:id="pbII198"/> sinnungen. Dadurch
+                  Charakterformen und Ge-<pb n="2.198" xml:id="pbII198"/> sinnungen. Dadurch
                   besitzt z.B. <persName ref="gnd-11855333X">Homer</persName> eine so grosse Menge
                   von Figuren, ohne gerade eine gleich grosse Anzahl bestimmt unterschiedener
                   Charaktere aufzustellen. Was diese letzteren selbst betrift, so zeichnen die Alten
@@ -3230,7 +3230,7 @@
                   Menschheit zurück! Niemand kommt den Alten in der Wahrheit und Stärke gleich, mit
                   der sie Gefühle und Leidenschaften schildern. Aber wieder weil sie sich auch in
                   diess Gebiet nicht so einsam einschliessen, weil sie die Empfindung mehr im Ganzen
-                  und in ihren Aeusserungen zeichnen, als im Einzelnen und für sich ent- <pb n="2.204" xml:id="pbII204"/> wickeln, so versetzen sie uns nicht in die zarte,
+                  und in ihren Aeusserungen zeichnen, als im Einzelnen und für sich ent-<pb n="2.204" xml:id="pbII204"/> wickeln, so versetzen sie uns nicht in die zarte,
                   leise, verwundbare Stimmung, deren wir uns hier nicht erwehren können.</p>
                <p>Dadurch sind zugleich alle Charaktere, nicht zwar in Rücksicht auf die natürliche
                   Kraft und Schönheit, aber in Rücksicht auf eine gewisse feinere Bildung um eine
@@ -3396,7 +3396,7 @@
                   nicht den Alten überhaupt, nur ihren frühesten Mustern fremd und müsste, wenn der
                   Dichter sie nicht so fest dem Ganzen einverleibt hätte, zu der Gattung der
                      <emph>spielenden</emph> gezählt werden. Wir meynen hier den Augenblick, wo die
-                  beiden Liebenden sich in dem Spiegel des Brunnens zu- <pb n="2.208" xml:id="pbII208"/> winken, den der Dichter sogar zweimal, nicht ohne eine
+                  beiden Liebenden sich in dem Spiegel des Brunnens zu-<pb n="2.208" xml:id="pbII208"/> winken, den der Dichter sogar zweimal, nicht ohne eine
                   gewissermassen absichtliche Symmetrie, beim Anfange und am Ende ihres Gesprächs
                   benutzt hat. (S. 165. 171.)<note type="footnote" n="xxii)" resp="gnd-116890657">
                             <hi>
@@ -3856,7 +3856,7 @@
                   Mannigfaltigkeit der Gestalten, Fülle und Abwechslung der Diction und des
                   Wohlklangs, mit Einem Wort Mangel an sinnlichem <emph>Reichthum</emph>; was ihn
                   aber auch hier wieder charakterisirt, ist, dass diess nie zum Mangel auch an
-                  sinnlicher <emph>Individualität</emph> ausschlägt. Denn der Bestimmt- <pb n="2.221" xml:id="pbII221"/> heit der Umrisse und der Stetigkeit der Bewegung
+                  sinnlicher <emph>Individualität</emph> ausschlägt. Denn der Bestimmt-<pb n="2.221" xml:id="pbII221"/> heit der Umrisse und der Stetigkeit der Bewegung
                   fehlt nie auch nur das Mindeste.</p>
                <p>Wenn er in der Reinheit der Formen und dem Seelenvollen des Ausdrucks eine
                   auffallende Aehnlichkeit mit <emph>Raphael</emph> darstellt, so erinnert er an ihn
@@ -4070,7 +4070,7 @@
                   oder nur eine (subjectiv) verschiedne Behandlung desselben Objects verlangt.</p>
                <p>Diess also ist die Quelle, zu welcher man immer zurückkehren muss. Der
                   Eintheilungsgrund aller wesentlich verschiednen Dichtungsarten ist allein die
-                  Natur der dichterischen Einbildungs- <pb n="2.227" xml:id="pbII227"/> kraft und
+                  Natur der dichterischen Einbildungs-<pb n="2.227" xml:id="pbII227"/> kraft und
                   des allgemeinen Zustandes der Seele, den sie in jeder einzelnen bearbeitet. Die
                   Untersuchung dieser beiden Stücke, für sich und in ihrer Verbindung, giebt den
                   Charakter jeder einzelnen Dichtungsart, <emph>die subjective Stimmung</emph>, aus
@@ -4139,7 +4139,7 @@
                <p>In dem Zustande der Beschauung liegt von selbst immer etwas Allgemeines und
                   Idealisches, da unsre intellectuelle Natur, die nie auf etwas andres hinausgehen
                   kann, darin hauptsächlich thätig ist. Die Empfindung behält auch dann noch, wenn
-                  sie durch die praktische Vernunft oder die Einbildungskraft zu voll- <pb n="2.229" xml:id="pbII229"/> kommner Reinheit geläutert ist, wenigstens die Form ihres
+                  sie durch die praktische Vernunft oder die Einbildungskraft zu voll-<pb n="2.229" xml:id="pbII229"/> kommner Reinheit geläutert ist, wenigstens die Form ihres
                   ursprünglichen Charakters. Denn die Beziehung auf das Subject bleibt darin, unter
                   jeglicher Umwandlung, immer dieselbe.</p>
                <p>Wenn daher die Kunst diese beiden Zustände dichterisch benutzen will, so hat sie
@@ -4458,7 +4458,7 @@
                   </item>
                </list>
                <p>Aber in Rücksicht der Materie ist diese Aehnlichkeit nicht in gleichem Grade
-                  vorhanden, da die beschauende Stimmung ver- <pb n="2.238" xml:id="pbII238"/> möge
+                  vorhanden, da die beschauende Stimmung ver-<pb n="2.238" xml:id="pbII238"/> möge
                   des darin zugleich herrschenden intellectuellen Vermögens nicht durchaus sinnlich
                   und durch ihre bloss objective Partheilosigkeit und Allgemeinheit gewissermassen
                   kalt und trocken ist. Die Einbildungskraft muss demselben also von ihrer
@@ -5010,7 +5010,7 @@
                   verwandt; und gerade in Satyrendichtern findet man die rührendsten und schönsten
                   Stellen über die Reinheit und Unschuld des einfachen Naturlebens, die sonst allein
                   der Idylle eigenthümlich sind. Beide, die Idylle sowohl als die Satyre, schildern
-                  das Ver- <pb n="2.254" xml:id="pbII254"/> hältniss unsres Wesens zur Natur, (nur
+                  das Ver-<pb n="2.254" xml:id="pbII254"/> hältniss unsres Wesens zur Natur, (nur
                   dass die erstere beide in Harmonie, die letztere sie in Widerspruch zeigt), und
                   beide schildern diess Verhältniss für die Empfindung.</p>
                <p>Denn der Idyllendichter steht (und diess bildet wiederum einen mächtigen
@@ -5188,7 +5188,7 @@
                   entspringt.</p>
                <p>Zwischen dieser ganzen Gattung erzählender Gedichte und der Epopee ist daher ein
                   fester und bestimmter Unterschied. Sie sollen das Gemüth bloss belehren, rühren,
-                  ergötzen oder beschäf- <pb n="2.259" xml:id="pbII259"/> tigen; aber sie sind weder
+                  ergötzen oder beschäf-<pb n="2.259" xml:id="pbII259"/> tigen; aber sie sind weder
                   bestimmt noch fähig, es in den Zustand hoher und reiner sinnlicher Betrachtung zu
                   versetzen, welcher allein das Werk des epischen Dichters seyn kann.</p>
             </div>
@@ -6060,7 +6060,7 @@
                         Sterblichen auf einmal zu einem beinahe göttlichen Wohlthäter seines
                         Geschlechts erhöbe, in dem der, welchem diese Auszeichnung zu Theil würde,
                         ein Charakter wäre, der mit der kraftvollsten Energie und dem edelsten
-                        Enthusiasmus das reinste und einfachste Gefühl der Unwürdig- <pb n="2.284" xml:id="pbII284"/> keit zu einer so hohen Bestimmung verbände, und in dem
+                        Enthusiasmus das reinste und einfachste Gefühl der Unwürdig-<pb n="2.284" xml:id="pbII284"/> keit zu einer so hohen Bestimmung verbände, und in dem
                         endlich die Wendung, durch welche das Schicksal diess vollendete, recht
                         plötzlich und überraschend einträfe, so könnte er gerade eben die Gefühle
                         der unruhigen Anspannung, der qualvollen Ungewissheit und der höchsten und
@@ -6180,7 +6180,7 @@
                         Individuen angetroffen wird; und die blosse Wahrheit der Phantasie, die fast
                         zu dem geraden Gegentheil von dem wird, was man gemeinhin Wahrheit nennt,
                         übertritt sogar noch diese Schranken. Die Gränzen der idealischen und
-                        pragmatischen Wahrheit müssen natürlich, auf einzelne Fälle an- <pb n="2.287" xml:id="pbII287"/> gewendet, sehr oft zusammenzulaufen
+                        pragmatischen Wahrheit müssen natürlich, auf einzelne Fälle an-<pb n="2.287" xml:id="pbII287"/> gewendet, sehr oft zusammenzulaufen
                         scheinen; man wird sie indess nie verkennen, sobald man sich erinnert, dass
                         alles das bloss idealische Wahrheit haben kann, worauf ein Gemüth stösst,
                         das sich, abgesondert von dem Leben in der äussern Wirklichkeit, in seine
@@ -6531,7 +6531,7 @@
                         </note> stehen meistentheils in keiner
                   andern Bedeutung da, als hier die Rede des Geistlichen, nur dass ihnen mehr
                   lustiger Scherz und manchmal sogar eine gewisse Rohheit beigemischt ist.</p>
-               <p>So wie diese einzelnen sind die meisten oder, genau ge- <pb n="2.297" xml:id="pbII297"/> nommen, vielmehr alle Umstände, die der Dichter in seinen
+               <p>So wie diese einzelnen sind die meisten oder, genau ge-<pb n="2.297" xml:id="pbII297"/> nommen, vielmehr alle Umstände, die der Dichter in seinen
                   Plan verwebt hat, durch eine dreifache Nothwendigkeit begründet:</p>
                <list rend="arabic">
                   <item n="1">
@@ -7140,7 +7140,7 @@
                   übertrieben oder künstlich scheinen oder mit dem nur überhaupt das einfachste und
                   schlichteste Gefühl nicht sympathisiren könnte; dagegen knüpft er immer alles das
                   auf einmal zusammen, was mit dieser Einfachheit verträglich ist. Dadurch bekommt
-                  jeder seiner Aussprüche ein gewisses ge- <pb n="2.313" xml:id="pbII313"/> diegnes
+                  jeder seiner Aussprüche ein gewisses ge-<pb n="2.313" xml:id="pbII313"/> diegnes
                   und antikes Ansehn und die Begriffe von Tugend, von Glück, von Leben gewinnen bei
                   ihm einen Gehalt und eine Fülle, die wir vergebens bei einem andern Dichter
                   suchen. Es scheinen nicht mehr Worte und Schilderungen; es scheinen diese Gefühle
@@ -7210,7 +7210,7 @@
                   trefliche Winke enthält) einzugehen; so müssen wir uns hier dabei begnügen, dass
                   in jeder dieser Ansichten, so wie sie im Vorigen geschildert sind, dennoch
                   offenbar etwas Einseitiges und Uebertriebenes liegt und dass jede unläugbar besser
-                  zu einer be- <pb n="2.315" xml:id="pbII315"/> sondern Art der Dichtkunst passt.
+                  zu einer be-<pb n="2.315" xml:id="pbII315"/> sondern Art der Dichtkunst passt.
                   Wenn nun unser Dichter ein billigeres Unheil nach der letzteren erfährt, so
                   verdient er es mit desto grösserem Rechte, weil seine Gattung und sein Charakter
                   derselben offenbar mehr angemessen ist. </p>

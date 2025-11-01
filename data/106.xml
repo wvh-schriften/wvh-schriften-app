@@ -27,6 +27,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Independent Online Edition</publisher>
+            <date when="2025-05">August 2025</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
                   Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
@@ -40,7 +41,7 @@
                   <surname>Leitzmann</surname>
                   <forename>Albert</forename>
                </editor>
-               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <publisher>Königlich Preußische Akademie der Wissenschaften</publisher>
                <pubPlace>Berlin</pubPlace>
                <date when="1903">1903</date>
                <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
@@ -619,7 +620,7 @@
                   und Philosophie in hohem Grade umgebildet. – Selbst ihre vaterländische Geschichte
                   (19.) durch Vertrautheit mit allen Zeiten und Erdstrichen, und andre
                   zusammenkommende Ursachen minder individuell erzählt. – Ihre Dichtung (20.) fast
-                  ganz aus fremder Mythologie genommen, und nach ob- <pb n="1.268" xml:id="pbI268"/>
+                  ganz aus fremder Mythologie genommen, und nach ob-<pb n="1.268" xml:id="pbI268"/>
                   jektiven allgemeinen Theorien geformt. – Ihre Philosophie (21.) abstrakt und
                   allgemein.</p>
             </div>
@@ -698,7 +699,8 @@
                         Blumen diene dazu dasjeniche auszuschmücken was der teutsche männliche
                         starke Sinn nach eignen und gegenwärtigen Verhältnissen und Bedürfnissen
                         erzeugt.“ <persName ref="gnd-118720961">Dalberg</persName>.</hi>
-                  </note></title>
+                  </note>
+                        </title>
                </head>
                <p>Da sich die den <placeName ref="geo-390903">Griechen</placeName> eigenthümliche
                   Reizbarkeit für das Schöne (23.) mit der, bei allen minder kultivirten Nationen
@@ -728,7 +730,8 @@
                            <placeName ref="geo-390903">Grieg</placeName>en in Beziehung auf
                         Schönheit die vollkommenste Werke erzeugen, welche mit Recht [als]
                         ästetische Muster empfohlen werden.“ <persName ref="gnd-118720961">Dalberg</persName>.</hi>
-                  </note></title>
+                  </note>
+                        </title>
                </head>
                <p>Wenn nun irgend eine Vorstellung menschlicher Vollkommenheit Vielseitigkeit und
                   Einheit hervorzubringen im Stande ist; so muss diess diejenige sein, die von dem
@@ -980,7 +983,8 @@
                         Nach diesem Maassstab verdient meines Erachtens die <placeName ref="geo-390903">Grieg</placeName>ische Literatur nur in so weit einen
                         Vorzug als sie die vollkommenste Muster des besten Geschmacks enthaltet; und
                         zu der ästetischen Ausbildung des Geistes beytragen kann.“ <persName ref="gnd-118720961">Dalberg</persName>.</hi>
-                  </note></title>
+                  </note>
+                        </title>
                </head>
                <p>So ist die Stimmung des Charakters der <placeName ref="geo-390903">Griechen</placeName> nach allen oben aufgezählten Momenten überaus
                   vortheilhaft für das Studium des Menschen überhaupt an derselben, als einem
