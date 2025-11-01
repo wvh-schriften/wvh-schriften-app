@@ -15,26 +15,16 @@
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
     <custom-style>
                 <style is="custom-style">
-            body{
-                color:#3d3224;
-                background:#ead8c3;
-                font-size: 18px;
 
-                --suggestions-item: {
-                    color: var(--pb-search-suggestions-color, black);
-                };
-                --suggestions-wrapper: {
-                    background: var(--pb-search-suggestions-background, white);
-                }
+            pb-page{
+                background-image: url('resources/images/klassik.png');
+                background-repeat: repeat; !important;
+                width: 100% !important;
             }
-
             @font-face {
                 font-family:"Oswald", Verdana, "Helvetica", sans-serif;
             }
-            pb-page{
-                background-image: url('resources/images/klassik.png');
-                background-repeat: repeat-y;
-            }
+            
             app-header{
                 position:fixed;
                 top:0;
@@ -98,14 +88,32 @@
             }
 
             @media (max-width: 768px) {
-                main {
-                    margin: 0 8px 0 8px;
-                }
-                app-header { 
-    position: static !important; 
-    height: auto;            /* optional: reduce header height on phones */
+  app-header {
+    height: auto !important;       /* shrink header to content */
+    min-height: 0 !important;      /* remove desktop min-height */
   }
+
+  app-header-layout,
+  app-header-layout &gt; * {
+    padding-top: 0 !important;     /* remove reserved space */
+    margin-top: 0 !important;
+  }
+
+  pb-page, pb-page &gt; * {
+    padding-top: 5vh !important;   /* small buffer between header and main */
+    margin-top: 0 !important;
+  }
+  
+.menu {
+  display: inline-block;
+  position: sticky;      /* sticks to viewport */
 }
+  
+
+}
+
+
+
                 .documents {
                     padding-left: 10px;
                 }
@@ -592,7 +600,7 @@
     </custom-style>
 </head>
 <body class="fullbleed">
-<pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
+<pb-page data-template="pages:pb-page" unresolved="unresolved" repeat="" subscribe="transcription">
     <app-drawer-layout force-narrow="force-narrow">
         <app-drawer slot="drawer" align="right">
             <div class="drawer-content">
@@ -651,37 +659,9 @@
                                     <i>Wilhelm von Humboldt: Schriften</i>
                                 </strong> ist eine Digitalausgabe, die Humboldts Werke in einer modernen, zuverlässigen und nachhaltigen Form zugänglich macht. Grundlage des Projekts sind zwei zentrale Editionen: die historische <strong>Leitzmann-Ausgabe (1903)</strong> und die <strong>Studienausgabe der WBG (Flitner/Giel, 1960–1981)</strong>.</p>
             <p>Alle Texte werden sorgfältig digitalisiert, ediert und im <strong>TEI-XML-Format</strong> veröffentlicht. So entsteht eine durchsuchbare und interaktive Digitalausgabe, die sowohl wissenschaftlichen als auch praktischen Ansprüchen gerecht wird.</p>
-            <p>Ein unverzichtbares Werkzeug für dieses Projekt war <em>
-                                    <a href="https://teipublisher.com/" target="_blank">TEI Publisher</a>
-                                </em>, eine Open-Source-Applikation, die die Veröffentlichung von TEI-codierten Texten bedeutend vereinfacht.</p>
+            <p>Ein unverzichtbares Werkzeug für dieses Projekt war <em><a href="https://teipublisher.com/" target="_blank">TEI Publisher</a></em>, eine Open-Source-Applikation, die die Veröffentlichung von TEI-codierten Texten bedeutend vereinfacht.</p>
             <p>Die Edition richtet sich an Wissenschaftler:innen, Studierende sowie alle Interessierten an Humboldts Sprachphilosophie, Bildungstheorie und politischen Schriften.</p>
 </section>
-
-    <section id="how">
-        <h1>Wie werden die Texte aufbereitet?</h1>
-        <p>Die digitale Edition folgt einem klaren, mehrstufigen Prozess:</p>
-        <ul>
-            <li>
-    <strong>Digitalisierung</strong>: Verwendung gescannter Ausgaben der Leitzmann-Ausgabe aus dem <em>
-        <a href="https://archive.org/details/gesammelteschrif01humbuoft/page/n1/mode/2up/" target="_blank">Internet Archive</a>
-                                    </em>.
-</li>
-<li>
-    <strong>Texterfassung</strong>: Automatisierte Texterkennung (OCR-Technologie mit <em>
-                                        <a href="https://www.transkribus.org/" target="_blank">Transkribus</a>
-                                    </em>) anschließend sorgfältige manuelle Korrektur.
-</li>
-<li>
-    <strong>TEI-XML-Auszeichnung</strong>: Formatierung mit <em>
-        <a href="https://www.oxygenxml.com/" target="_blank">Oxygen XML Editor</a>
-                                    </em> zur langfristigen und standardisierten Bereitstellung.
-</li>
-
-        </ul>
-        <p>Da es sich um ein umfangreiches Vorhaben handelt, wird die Digitalausgabe fortlaufend erweitert – sie wächst Stück für Stück und versteht sich als <strong>
-                                    <i>work in progress</i>
-                                </strong>.</p>
-    </section>
 
     <section id="why-this-project">
         <h1>Warum dieses Projekt?</h1>
@@ -700,15 +680,37 @@
             <li>Fußnoten von Humboldt und Leitzmann bieten zusätzlichen Kontext.</li>
             <li>Leitzmanns Bemerkungen zur Entstehungsgeschichte der Texte helfen, deren Hintergründe besser zu verstehen.</li>
         </ul>
-        <p>Eine wichtige inhaltliche und technische Vorlage war dabei das Projekt <em>
-                                    <a href="https://wvh-briefe.bbaw.de/" target="_blank">Wilhelm von Humboldt: Sprachwissenschaftliche Korrespondenz</a>
-                                </em> (2004-2018) der <em>
-                                    <a href="https://bbaw.de/" target="_blank">Berlin-Brandenburgischen Akademie der Wissenschaften</a>
-                                </em>, das Humboldts Briefwechsel zu sprachwissenschaftlichen Themen digital zugänglich macht. Für die dort geleistete Pionierarbeit bin ich sehr dankbar.</p>
+        <p>Eine wichtige inhaltliche und technische Vorlage war dabei das Projekt <em><a href="https://wvh-briefe.bbaw.de/" target="_blank">Wilhelm von Humboldt: Sprachwissenschaftliche Korrespondenz</a></em> (2004-2018) der <em><a href="https://bbaw.de/" target="_blank">Berlin-Brandenburgischen Akademie der Wissenschaften</a></em>, das Humboldts Briefwechsel zu sprachwissenschaftlichen Themen digital zugänglich macht. Für die dort geleistete Pionierarbeit bin ich sehr dankbar.</p>
+    </section>
+    
+    <section id="how">
+        <h1>Wie werden die Texte aufbereitet?</h1>
+        <p>Die digitale Edition folgt einem klaren, mehrstufigen Prozess:</p>
+        <ul>
+            <li>
+    <strong>Digitalisierung</strong>: Verwendung gescannter Ausgaben der Leitzmann-Ausgabe aus dem <em><a href="https://archive.org/details/gesammelteschrif01humbuoft/page/n1/mode/2up/" target="_blank">Internet Archive</a></em>.
+</li>
+<li>
+    <strong>Texterfassung</strong>: Automatisierte Texterkennung (OCR-Technologie mit <em><a href="https://www.transkribus.org/" target="_blank">Transkribus</a></em>) anschließend sorgfältige manuelle Korrektur.
+</li>
+<li>
+    <strong>TEI-XML-Auszeichnung</strong>: Formatierung mit <em><a href="https://www.oxygenxml.com/" target="_blank">Oxygen XML Editor</a></em> zur langfristigen und standardisierten Bereitstellung.
+</li>
+
+        </ul>
+        <p>Da es sich um ein umfangreiches Vorhaben handelt, wird die Digitalausgabe fortlaufend erweitert – sie wächst Stück für Stück und versteht sich als <strong><i>work in progress</i></strong>.</p>
+    </section>
+    
+    <section id="data">
+        <h1>Wo werden die Projektdaten gesichert?</h1>
+        <p>Alle Projektdateien (darunter die TEI-XML-Daten, Stylesheets und Skripte) sind frei zugänglich auf <a href="https://github.com/wvh-schriften">GitHub</a> und werden zusätzlich auf <a href="https://zenodo.org/records/16942573">Zenodo</a> archiviert.</p>
+        <p><strong>GitHub</strong> dient als Arbeits- und Veröffentlichungsplattform: Hier können der Quellcode eingesehen, frühere Versionen nachvollzogen und Verbesserungsvorschläge eingereicht werden.</p>
+        <p><strong>Zenodo</strong> betrieben von der Europäischen Organisation für Kernforschung (CERN), gewährleistet die Zitierfähigkeit, internationale Sichtbarkeit und sichere, dauerhafte Archivierung der Edition. Jede veröffentlichte Version erhält einen eigenen DOI und bleibt somit langfristig referenzierbar.</p>
+        <p>So entsteht eine digitale Edition, die nicht nur offen nutzbar ist, sondern auch den Prinzipien wissenschaftlicher Integrität und Nachhaltigkeit verpflichtet bleibt.</p>
     </section>
 
     <section id="how-to-help">
-        <h1>Wie kannst du helfen?</h1>
+        <h1>Wie kannst Du helfen?</h1>
         <p>Dieses Projekt wird derzeit <strong>privat finanziert</strong> – und lebt hauptsächlich von eigenen Mitteln. Die Kosten umfassen v.a. die Verwaltung des Hostings sowie Domainnamens. Du kannst auf verschiedene Weise mitwirken:</p>
 
         <ul>
@@ -716,9 +718,9 @@
                     <strong>Spenden</strong>: Jede kleine Spende hilft, die Website zu unterstützen! → <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"/>
                                     <script type="text/javascript">kofiwidget2.init('Spenden', '#3d3224', 'P5P81FN7DS');kofiwidget2.draw();</script> </li>
             <li>
-                    <strong>Fehler melden</strong>: Hast du Tippfehler, Formatprobleme oder Unstimmigkeiten entdeckt? Ich freue mich über Hinweise!</li>
+                    <strong>Fehler melden</strong>: Hast Du Tippfehler, Formatprobleme oder Unstimmigkeiten entdeckt? Ich freue mich über Hinweise!</li>
             <li>
-                    <strong>Prioritäten setzen</strong>: Gibt es einen Text, der dich besonders interessiert? Sag Bescheid – ich priorisiere ihn gern.</li>
+                    <strong>Prioritäten setzen</strong>: Gibt es einen Text, der Dich besonders interessiert? Sag Bescheid, ich priorisiere ihn gern.</li>
         </ul>
         <p>Kontakt: <a href="mailto:kontakt@wvh-schriften.de">kontakt@wvh-schriften.de</a>
             </p>

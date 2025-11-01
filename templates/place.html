@@ -34,7 +34,8 @@
             }
             pb-page{
                 background-image: url('resources/images/klassik.png');
-                background-repeat: repeat-y;
+                background-repeat: repeat; !important;
+                width: 100% !important;
             }
             app-header{
                 position:fixed;
@@ -133,26 +134,29 @@
             }
 
             @media (max-width: 768px) {
-                main {
-                    margin: 0 8px 0 8px;
-                }
-
-                .documents {
-                    padding-left: 10px;
-                }
-
-                .documents .label {
-                    display: none;
-                }
-
-                .toolbar pb-search {
-                    padding-left: 0;
-                }
-                app-header { 
-    position: static !important; 
-    height: auto;            /* optional: reduce header height on phones */
+  app-header {
+    height: auto !important;       /* shrink header to content */
+    min-height: 0 !important;      /* remove desktop min-height */
   }
-            }
+
+  app-header-layout,
+  app-header-layout &gt; * {
+    padding-top: 0 !important;     /* remove reserved space */
+    margin-top: 0 !important;
+  }
+
+  pb-page, pb-page &gt; * {
+    padding-top: 5vh !important;   /* small buffer between header and main */
+    margin-top: 0 !important;
+  }
+  
+.menu {
+  display: inline-block;
+  position: sticky;      /* sticks to viewport */
+}
+  
+
+}
             .menu {
   text-align: center;
   margin: -1.2rem auto 0;

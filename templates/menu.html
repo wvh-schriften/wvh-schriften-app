@@ -7,6 +7,9 @@
             </a>
             
             <paper-listbox slot="dropdown-content" data-template="pages:parse-params">
+            <paper-item data-template="pages:if-supported" data-template-media="print">
+                    <a href="${app}/print/${doc}" target="_new">Print CSS</a>
+                </paper-item>
                 <paper-item data-template="pages:if-supported" data-template-media="epub">
                     <pb-download type="epub" src="document1" dialog="downloadDialog">
                         ePUB
@@ -19,6 +22,16 @@
                 </paper-item>
             </paper-listbox>
         </paper-menu-button>
+        <paper-menu-button>
+            <a href="/exist/apps/wvh-schriften/about.html/" slot="dropdown-trigger">
+                <pb-i18n key="menu.about">About</pb-i18n>
+            </a>
+            </paper-menu-button>
+            <paper-menu-button>
+            <a href="/exist/apps/wvh-schriften/durchsuchen.html/" slot="dropdown-trigger">
+                <pb-i18n key="menu.about">Durchsuchen</pb-i18n>
+            </a>
+            </paper-menu-button>
          <paper-menu-button>
             <a href="#" slot="dropdown-trigger">
                 <pb-i18n key="menu.register">Register</pb-i18n>

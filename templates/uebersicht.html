@@ -33,7 +33,8 @@
             }
             pb-page{
                 background-image: url('resources/images/klassik.png');
-                background-repeat: repeat-y;
+                background-repeat: repeat; !important;
+                width: 100% !important;
             }
             app-header{
                 position:fixed;
@@ -98,13 +99,28 @@
             }
 
             @media (max-width: 768px) {
-                main {
-                    margin: 0 8px 0 8px;
-                }
-                app-header { 
-    position: static !important; 
-    height: auto;            /* optional: reduce header height on phones */
+  app-header {
+    height: auto !important;       /* shrink header to content */
+    min-height: 0 !important;      /* remove desktop min-height */
   }
+
+  app-header-layout,
+  app-header-layout &gt; * {
+    padding-top: 0 !important;     /* remove reserved space */
+    margin-top: 0 !important;
+  }
+
+  pb-page, pb-page &gt; * {
+    padding-top: 5vh !important;   /* small buffer between header and main */
+    margin-top: 0 !important;
+  }
+  
+.menu {
+  display: inline-block;
+  position: sticky;      /* sticks to viewport */
+}
+  
+
 }
                 .documents {
                     padding-left: 10px;
@@ -649,7 +665,6 @@
                         </h3>
                 <h3>
                             <a class="button-link" href="103.xml">3.	Ideen über Staatsverfassung, durch die neue französische Konstitution veranlaßt [1791]</a>
-                            <a class="button-link" href="resources/pdf/103.pdf" target="_blank">(PDF)</a>
 
                         </h3>
                 <h3>
@@ -663,14 +678,12 @@
                         </h3>
                 <h3>
                             <a class="button-link" href="107.xml">7.	Theorie einer Bildung des Menschen. Bruchstück [1793]</a>
-                            <a class="button-link" href="resources/pdf/107.pdf" target="_blank">(PDF)</a>
                         </h3>
                 <h3>
                             <a class="button-link" href="108.xml">8.	Rezension von Jacobis Woldemar [1794]</a>
                         </h3>
                 <h3>
                             <a class="button-link" href="109.xml">9.	Über den Geschlechtsunterschied und dessen Einfluß auf die organische Natur [1794]</a>
-                            <a class="button-link" href="resources/pdf/109.pdf" target="_blank">(PDF)</a>
                         </h3>
                 <h3>
                             <a class="button-link" href="110.xml">10.	Über die männliche und weibliche Form [1795]</a>
@@ -688,7 +701,7 @@
                 <section id="band-2">
                 <h1>Band 2 (1796-1799)</h1>
                 <h3>
-                            <a class="button-link">1.	Das achtzehnte Jahrhundert [1795—1796]</a>
+                            <a class="button-link" href="201.xml">1.	Das achtzehnte Jahrhundert [1796—1797]</a>
                         </h3>
                 <h3>
                             <a class="button-link" href="202.xml">2.	Ästhetische Versuche. Erster Teil: <i>Über Goethes Hermann und Dorothea</i> [1797—1798]</a>
@@ -964,6 +977,66 @@
                             <a class="button-link">21.	Über das Verhältnis der Religion und der Poesie zu der sittlichen Bildung [1825—1829] </a>
                         </h3>
             </section>
+                <section id="band-8">
+                <h1>Band 8 - Übersetzungen</h1>
+                <h3>
+                            <a class="button-link">1.	Übersetzungen aus dem Pindar</a>
+                        </h3>
+                        <h3>
+                            <a class="button-link">2.	Aeschylos Agamemnon [1797 — 1816]</a>
+                        </h3>
+                        <h3>
+                            <a class="button-link">3.	Kleinere Stücke aus der griechischen und römischen Dichtung</a>
+                        </h3>
+                </section>
+                <section id="band-9">
+                <h1>Band 9 - Gedichte</h1>
+                <h3>
+                            <a class="button-link">1.	Jugendgedichte [1786—94]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">2.	An den erwarteten Sohn [1800]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">3.	Gedichte der römisclien Zeit [1804—8]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">4.	Rom [1806]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">5.	An Alexander [1808]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">6.	Gedichte der Königsberger Zeit [1809]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">7.	Weibertreue [1809]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">8.	Gedichte aus den Jahren 1809—1820</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">9.	Die Griechensklavin [1822]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">10.	Altersgedichte [1823-30]</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">11.	Sonette [1832—1835]</a>
+                        </h3>
+                </section>
+                <section id="band-13">
+                <h1>Band 13 - Nachträge</h1>
+                <h3>
+                            <a class="button-link">1.	Die Vasken oder Bemerkungen auf einer Reise durch Biscaya und das französische Basquenland im Frühling des Jahrs 1801</a>
+                        </h3>
+                <h3>
+                            <a class="button-link">2.	Zwei amtliche Berichte aus der römischen Zeit</a>
+                        </h3>
+                    <h3>
+                            <a class="button-link">3.	Amtliche Arbeiten aus den Jahren 1809 und 1810</a>
+                        </h3>
+                </section>
             </div>
             </main>
             <footer data-template="templates:include" data-template-path="templates/footer.html"/>
